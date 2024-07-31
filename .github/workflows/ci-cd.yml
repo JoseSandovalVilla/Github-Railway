@@ -28,5 +28,5 @@ jobs:
           curl -X POST \
           -H "Authorization: Bearer $RAILWAY_API_KEY" \
           -H "Content-Type: application/json" \
-          -d '{"service_id": "your-service-id"}' \
+          -d '{"service_id": "github-railway-production.up.railway.app"}' \
           https://railway.app/api/v1/service/deploy
